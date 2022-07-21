@@ -1,0 +1,160 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    margin: 0;
+    background-color: #78d0f4;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    margin: 0;
+    background-color: bisque;
+}
+
+header .logo {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+header .nav {
+    width: 50%;
+}
+
+header .logo img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+
+header .nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+header .nav ul li a {
+    text-decoration: none;
+    color: #10106f;
+}
+
+.title {
+    margin-top: 200px;
+    margin-bottom: 130px;
+    background-color: #0e3849;
+    color: #78d0f4;
+    width: 100%;
+    text-align: center;
+}
+
+.team-photos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.team-photos img {
+    width: 250px;
+    height: 250px;
+}
+
+.team-photos__title {
+    display: flex;
+    flex-direction: column;
+}
+
+.team-photos__img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.quote {
+    margin: 50px 0;
+    background-color: #0e3849;
+    color: #78d0f4;
+}
+
+.quote h3,
+.quote p {
+    margin-left: 20px;
+}
+
+.tickets img {
+    height: 50%;
+    width: 100%;
+}
+
+.tickets a {
+    text-decoration: none;
+    color: red;
+}
+
+.tickets h5,
+.tickets h3 {
+    text-align: center;
+}
+
+
+footer {
+    background-color: bisque;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .team-photos__img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team-photos__img img {
+        height: 100%;
+        margin: 20px 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .logo h2 {
+        display: none;
+    }
+
+    .logo a {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    header .nav ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    header .nav ul li {
+        width: 100%;
+    }
+}

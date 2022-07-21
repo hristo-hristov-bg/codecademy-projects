@@ -1,0 +1,169 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+}
+
+body {
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: seashell;
+    align-items: center;
+}
+
+footer {
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.header {
+    position: fixed;
+    height: 69px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+    z-index: 10;
+    background-color: black;
+}
+
+.main-nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-nav ul {
+    padding-right: 10px;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.main-nav a {
+    text-decoration: underline;
+    padding: 5px;
+    margin-left: 5px;
+    color: seashell;
+}
+
+#logo {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#logo img {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 50px;
+    padding-left: 10px;
+}
+
+
+
+.mission {
+    background: url('../img/img-mission-background.jpg');
+    padding: 0;
+    margin: 0;
+    /* margin-top: 71px; */
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.mission div {
+    background-color: black;
+    color: seashell;
+    width: 100%;
+}
+
+.mission img {
+    padding: 0;
+    margin-top: 71px;
+    height: 700px;
+    width: 1200px;
+}
+
+.tea {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tea-img img {
+    width: 300px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.tea-img h4 {
+    margin-top: 10px;
+}
+
+.tea-img__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.locations-img__container {
+    background: url('../img/img-locations-background.jpg') left 0% bottom 90% no-repeat;
+    height: 500px;
+    width: 1200px;
+    padding: 0;
+    margin: 0;
+}
+
+.locations-address {
+    opacity: 1;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    color: seashell;
+    margin: 0 40px;
+}
+
+.locations-img__container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.locations h2{
+    margin: 0;
+}
+
+.locations {
+    margin: 0;
+}
+
+.info-container {
+    height: 200px;
+    margin: 0;
+}
